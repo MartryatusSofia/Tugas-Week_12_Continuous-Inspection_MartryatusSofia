@@ -1,5 +1,3 @@
-package src.main.java;
-
 public class Counter {
 
 	private int count;
@@ -47,6 +45,29 @@ public class Counter {
 	
 	public int getCount() {
 		return count;
+	}
+
+	// simulasi code smell untuk SonarCloud
+	public void simulateBadCode() {
+
+		int unusedNumber = 100;
+		String unusedText = "contoh issue sonar";
+
+		if(count > 0) {
+			System.out.println("Count positif");
+		}
+
+		if(count > 0) {
+			System.out.println("Count positif");
+		}
+
+		if(count > 0) {
+			System.out.println("Count positif");
+		}
+
+		if(count > 0) {
+			System.out.println("Count positif");
+		}
 	}
 	
 }
